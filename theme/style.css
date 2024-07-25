@@ -7,9 +7,10 @@ body {
 
 header {
     background-color: #049A8F;
-    padding: 10px 0;
+    padding: 10px 0px 10px;
     color: white;
     text-align: center;
+    height: 50px;
 }
 
 nav ul {
@@ -21,6 +22,11 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+}
+
+nav ul li:hover {
+    margin: 0 15px;
+    border-bottom: 3px solid white;
 }
 
 nav ul li a {
@@ -35,9 +41,11 @@ nav ul li a {
 }
 
 .banner img {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
+    position: center;
+    margin-left: 50px;
 }
 
 .banner {
